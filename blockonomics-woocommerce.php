@@ -486,7 +486,7 @@ function blockonomics_plugin_activation() {
 
     $html = '<div class="updated">';
     $html .= '<p>';
-    $html .= __( 'Congrats, you are now accepting BTC payments! You can configure Blockonomics <a href="options-general.php?page=blockonomics_options">on this page</a>.', 'blockonomics-bitcoin-payments' );
+    $html .= __( 'Congrats, you are now accepting BTC payments! You can configure Blockonomics <a href="admin.php?page=wc-settings&tab=checkout&section=blockonomics">on this page</a>.', 'blockonomics-bitcoin-payments' );
     $html .= '</p>';
     $html .= '</div>';
 
